@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java the Hard Way</title>
+</head>
+<body>
+	<h1>Equal Signs</h1>
+	<p> 
+	"=" is used to assign values to variables.
+	"==" is an operator used to compare equality of two values.
+	.equals() is a method used to compare two strings and provides a true value if the strings are equal or false if they are not.
+	</p>
+	<h3> When to use "=" vs "==" vs '.equals'</h3>
+	<ul>
+		<li>"=" : use when assigning value to a variable ie. x = 0, score = 0</li>
+		<li>"==" : use when testing if two variables are equal ie. x == y, value == 10</li>
+		<li>.equals() : use when comparing two strings for equality ie. word.equals("yes") </li>
+	</ul>
+
+	<h1>Math.random()</h1>
+	<p>Math.random() is a built-in java function that generates a random double value in the range [0,1]. The return value given from the random number generator is a number that contains decimals and is greater than or equal to zero and less than 1. 'Math' is a class in Java, which means that it is always capitalized. 
+	</p>
+
+	<h1>For, while, and do-while loops</h1>
+	<p> 
+	<ul>
+		<li>The 'for' loop is used to iterate a process repeatedly until a condition is met. </li>
+		<li>The 'while' loop is used to execute a block of code in the body so long as the condition is met. If the condition is false, then the code in the body is skipped and the rest of the program will continue.
+		The while loop looks like while (condition) {code to execute}. The while loop is a pre-test loop because it checks the condition first before it executes the code in the body. Thus, the condition of the while loop is before the body.</li>
+		<li>The 'do-while' loop is similar to the while loop because it checks a condition and executes the code in the body if the condition is true. However, it is different than a while loop because it is a post-test loop, meaning it runs the code first and then checks the condition afterward. Hence, do-while loops have the keyword do before the body and the condition comes at the end, as opposed to the while loop where the condition comes first. </li>
+	</ul>
+	</p>
+	<h3>When to use while vs do-while</h3>
+	<p>
+	While and do-while loops essentially function the same way, except a do-while loop is easier to use when you don't know what the condition is before you want the code to execute. For example, when executing a game where a coin is flipped, we don't know what the first result will be so a do-while loop is beneficial in this case because the code will execute and we do not need to give a value to a variable in the condition.
+	</p>
+
+	<h1>java.util.Scanner</h1>
+	<p>When you include 'import java.util.Scanner' in your code, you are importing a method built into the Java library called the Scanner utility which allows you to retrieve information from the keyboard or from other files. Once you create and name a Scanner object, you have the ability to run the next function and retrieve information from the keyboard input and it can also store it in a variable.
+	</p>
+
+	<h1>Void Method Declaration</h1>
+	<p>A method declaration either returns a value type or none at all. When 'public static void' is used in a method declaration, no value is returned by the function. This differs from declaring a method with a return type because there is no output from the function, whereas a return type such as int, String, double, or boolean, provide a return value according to which type value is entered after 'publc static.'
+</body>
+</html>
